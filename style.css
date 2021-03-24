@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background: #f1f1f1;
+}
+
 #top-menu {
     display: flex;
     justify-content: space-between;
