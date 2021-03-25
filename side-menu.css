@@ -15,7 +15,6 @@ a {
 
 .side-menu--closed a .text {
     font-size: 9px;
-
 }
 
 .side-menu hr {
@@ -31,6 +30,8 @@ a {
     height: 40px;
     width: 100%;
     text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: #000000;
@@ -85,4 +86,45 @@ svg {
 
 .side-menu--closed a.current {
     color: #f00;
+}
+
+.side-menu--closed a .text {
+    padding-top: 5px;
+}
+
+.side-menu-paragraph {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    color: #606060;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+.side-menu--closed .side-menu-paragraph {
+    display: none;
+}
+
+.side-menu-links {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color: #606060;
+    display: block;
+    width: 165px;
+    height: 100px;
+    padding-top: 16px;
+    padding-left: 24px;
+    flex-wrap: wrap;
+}
+
+.side-menu-links a {
+    padding: 0;
+}
+
+.side-menu--closed .side-menu-links {
+    display: none;
 }
