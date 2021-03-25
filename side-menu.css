@@ -7,6 +7,7 @@ a {
     display: flex;
     flex-direction: column;
     background: #fff;
+    padding-top: 10px;
 }
 
 .side-menu--closed {
@@ -108,21 +109,31 @@ svg {
     display: none;
 }
 
+.side-menu-links span {
+    display: block;
+}
+
 .side-menu-links {
     font-family: Roboto;
     font-weight: 500;
     font-size: 12px;
-    color: #606060;
-    display: block;
-    width: 165px;
-    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 16px;
     padding-left: 24px;
-    flex-wrap: wrap;
 }
 
 .side-menu-links a {
     padding: 0;
+    background: none;
+    height: initial;
+    width: initial;
+    margin-right: 8px;
+    color: #606060;
+}
+
+.side-menu-links a:hover {
+    text-decoration: underline;
 }
 
 .side-menu--closed .side-menu-links {
